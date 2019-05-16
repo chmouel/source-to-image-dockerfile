@@ -1,4 +1,4 @@
-FROM openshift/base-centos7
+FROM centos:7
 
 # Install Maven, Jenkins and add the base-plugin.txt from openshift/jenkins
 # images and the install-plugins script, run the install-scripts to install the plugins
